@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(sample2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display:inline-flex;
+}
+.logo{
+    height: 10vh; 
+    width: 5vw; 
+    display: grid;
+    margin-right: 120vh;
+}
+.nav_list ul{
+    list-style: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.nav_list li{
+    display: inline-block;
+}
+.nav_list a{
+    text-decoration: none;
+    color:#fff;
+    width: 100px;
+    display: block;
+    padding:20px 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.nav_list a:hover{
+    opacity: 0.5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-item {
+    width: 30%;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+    background-color: #f7f7f7;
+}
+
+#cart {
+    color: white;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid #ccc;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#total {
+    font-weight: bold;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
